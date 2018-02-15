@@ -1,4 +1,14 @@
-var sys = require("sys"),
+var http = require('http');
+var fs = require('fs');
+var index = fs.readFileSync('index.html');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end(index);
+}).listen(8080);
+sys.puts("Server Running on 8080");  
+
+/*var sys = require("sys"),
 my_http = require("http"),
 path = require("path"),
 url = require("url"),
@@ -31,3 +41,4 @@ my_http.createServer(function(request,response){
   });
 }).listen(8080);
 sys.puts("Server Running on 8080");  
+*/
