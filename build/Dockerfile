@@ -1,7 +1,8 @@
 FROM alpine
-RUN apk update
-RUN apk add nginx
-RUN apk add mc
+RUN apk add --update
+RUN apk add nodejs
+#RUN apk add nginx
+#RUN apk add mc
 WORKDIR /usr/src/app
 COPY . .
 EXPOSE 8080
