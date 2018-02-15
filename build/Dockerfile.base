@@ -4,5 +4,5 @@ RUN apk add nodejs
 RUN apk add mc
 RUN apk add htop
 VOLUME /home
-WORKDIR /usr/src/app
+WORKDIR /home
 EXPOSE 8080
