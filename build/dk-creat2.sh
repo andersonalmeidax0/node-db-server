@@ -1,3 +1,4 @@
+#v2
 #curl https://raw.githubusercontent.com/andersonalmeidax0/node-db-server/master/build/dk-creat2.sh > dk-creat2.sh
 curl https://raw.githubusercontent.com/andersonalmeidax0/node-db-server/master/build/Dockerfile > Dockerfile
 curl https://raw.githubusercontent.com/andersonalmeidax0/node-db-server/master/build/server.js > server.js
