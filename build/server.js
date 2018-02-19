@@ -88,7 +88,7 @@ var datetime =
                 + currentdate.getHours() + "-" + currentdate.getMinutes() + "-"  + currentdate.getSeconds();
 
 var flog = fs.createWriteStream(datetime+'-dblog.txt'); 
-var dbhost='172.18.0.2';
+var dbhost='mycouchdb';
 var dbport=5984;
 
 /************************ SERVER   ********************/
@@ -200,7 +200,7 @@ var datetime =
      }   
 }).listen(serverPort);
 
-console.log('Server running at localhost:'+serverPort);
+console.log('Server running at localhost (VDNSOK!!!):'+serverPort);
 
 //process.exit(0);
 
