@@ -1,5 +1,6 @@
 0-a vm/google  deve ter inicialmente svn, docker. 
 0-start local vm (or google vm), com portas 80xx 80xx abertas
+===== se nao tiver mudancas, oular para passo 3 =====
 1-obter get-repo.sh  e rodar - vai objter todas as files para fazer: getFromGit, buildSrc, buildImage
 1.1-dar chmod +777 *.sh
 2-build image: ir em /opt/src :   
