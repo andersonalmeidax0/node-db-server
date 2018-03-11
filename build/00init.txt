@@ -1,6 +1,7 @@
 0-a vm/google  deve ter inicialmente svn, docker. 
 0-start local vm (or google vm), com portas 80xx 80xx abertas
 0-rodar prepare.sh, que cria o diretorio do couchdb e cria a rede docker "netdb"
+0-obs: dk-stop.sh para todos os containers, dk-clean.sh remove os containers. Necessario para fazer rebuild.
 ===== se nao tiver mudancas, oular para passo 3 =====
 1-obter get-repo.sh  e rodar - vai objter todas as files para fazer: getFromGit, buildSrc, buildImage
 1.1-dar chmod +777 *.sh
