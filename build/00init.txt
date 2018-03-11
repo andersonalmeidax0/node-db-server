@@ -12,4 +12,9 @@
     .a imagem de db mycouchdb nao precisa de dockerfile pois usa imagem couchdb default
 3-run image
   .dk-run:  roda node da porta 8080 chamando requests para couch db na porta 5984, dbfile em localdir [completar]
-  
+====================================
+====================================
+====================================
+TODO:
+-mudar tudo para rodar via sudo
+-criar dockerfile para couch db (mesmo que for para nao fazer nada...)
